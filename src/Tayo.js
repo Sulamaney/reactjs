@@ -1,10 +1,14 @@
 import './App.css';
-let Greet= (props)=>{
+import React, { useState } from 'react';
+function Greet(){
+    const [isShown, setisShown] = useState(false);
+    const toggle =() =>{
+        setisShown((isShown)=>!isShown)
+    }
     return(
         <>
-            <h1 className='naso'>
-                {props.name} {props.user} User
-            </h1>
+            <h1>Welcome Sula Store</h1>
+            <button onClick={toggle}>About Us</button>{isShown &&<p>See more item here</p>}
         </>
     )
 }
