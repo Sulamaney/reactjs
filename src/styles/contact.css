@@ -1,0 +1,20 @@
+.contact-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #444;
+    color: white;
+  }
+  .contact-container input,
+  .contact-container textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .contact-container button {
+    padding: 10px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

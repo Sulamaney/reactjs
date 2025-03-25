@@ -1,0 +1,75 @@
+.sodiq{
+    width: 70%;
+    opacity: 0.5;
+    margin-top: -40px;
+}
+.expertise {
+    text-align: center;
+    padding: 80px 0;
+    background: #0a0a0a; /* Dark background */
+    color: #fff;
+  }
+  .expertise {
+    min-height: 100vh; /* Forces visibility */
+  }
+  
+  .expertise-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .expertise-title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #ff9800;
+    margin: 10px auto 0;
+    border-radius: 5px;
+  }
+  
+  .expertise-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+  }
+  
+  .expertise-card {
+    background: transparent;
+    padding: 50px;
+    width: 300px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(255, 140, 0, 0.3);
+  }
+  
+  .expertise-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .expertise-card p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  .expertise-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 6px 15px rgba(255, 140, 0, 0.5);
+    transform: translateY(-5px);
+  }
+  
+  /* Icon Styling */
+  .expertise-icon {
+    font-size: 3rem;
+    color: #ff9800;
+    margin-bottom: 15px;
+  }
+  
