@@ -1,0 +1,47 @@
+.work {
+    text-align: center;
+    padding: 100px 0;
+    background: #0a0a0a; /* Dark Background */
+    color: white;
+  }
+  
+  .work-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+  .work-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  /* Phone Mockup */
+  .phone-mockup {
+    max-width: 300px;
+    animation: float 4s ease-in-out infinite;
+  }
+  
+  .phone-mockup img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(255, 140, 0, 0.3);
+  }
+  
+  /* Floating Effect */
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  /* Projects List */
+  .projects-list {
+    max-width: 600px;
+    text-align: left;
+  }
+  
